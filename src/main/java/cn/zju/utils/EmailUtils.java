@@ -55,7 +55,6 @@ public class EmailUtils {
 			//关闭连接
 			tran.close();
 		} catch (MessagingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -86,7 +85,6 @@ public class EmailUtils {
 			//保存设置
 			message.saveChanges();
 		} catch (UnsupportedEncodingException | MessagingException | UnknownHostException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return message;

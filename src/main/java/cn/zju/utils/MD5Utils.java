@@ -16,7 +16,6 @@ public class MD5Utils {
 			//BigInteger(参数1,参数2) 参数1 是 1为正数 0为0 -1为负数
 			return new BigInteger(1, md.digest()).toString(16);
 		} catch (NoSuchAlgorithmException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return null;
